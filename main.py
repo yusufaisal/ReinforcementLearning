@@ -5,4 +5,4 @@ if __name__=='__main__':
     ql = q_learning(path)
     ql.run()
 
-    print(ql.reward[1])
+    print(ql.Q)
